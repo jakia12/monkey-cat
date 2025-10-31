@@ -6863,14 +6863,15 @@ ul li {
   z-index: 1;
 }
 #stage .brand-icon {
-  width: 75%;
-  height: auto;
-  /* -webkit-filter: drop-shadow(0 4px 40px #20fb5f);
-  filter: drop-shadow(0 4px 40px #20fb5f); */
+  width: 80%;
+  height: 530px;
+  /* -webkit-filter: drop-shadow(0 4px 40px #20fb5f); */
+  /* filter: drop-shadow(0 4px 40px #20fb5f); */
 }
 @media (max-width: 576px) {
   #stage .brand-icon {
     width: 100%;
+    height: auto;
   }
   .brand-logo {
     font-size: 40px;

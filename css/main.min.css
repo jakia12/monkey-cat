@@ -1241,6 +1241,9 @@
   width: 768px;
 }
 @media (max-width: 768px) {
+  .flx {
+    display: flex;
+  }
   section#stage {
     padding-top: 60px;
   }
@@ -1461,7 +1464,7 @@ nav .brand-logo {
 }
 
 #stage .brand-logo {
-  font-size: clamp(4rem, 5vw, 7.5rem);
+  font-size: 88px;
   display: block;
   margin-bottom: 17px;
 }

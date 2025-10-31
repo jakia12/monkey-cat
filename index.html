@@ -18,6 +18,26 @@
       body {
         font-family: "Russo One", sans-serif;
       }
+      .spacing {
+        margin-right: 15px;
+      }
+      @media (max-width: 768px) {
+         .right_txt{
+        text-align: center;
+      }
+        #stage .brand-logo {
+    font-size: 46px;
+    display: block;
+    margin-bottom: 17px;
+}
+        .spacing {
+          margin-right: 0px;
+          margin-bottom: 10px;
+        }
+         }
+     
+       
+
     </style>
   </head>
   <body>
@@ -74,15 +94,16 @@
             <img class="brand-icon mb-3" src="images/logo/logo.png" style="border-radius: 6px;" />
           </div>
           <div class="col-md-6">
-            <span
+           <div class="right_txt">
+             <span
               style="
                 font-family: 'Russo One', sans-serif;
                 text-transform: uppercase;
                 color: #000
               "
               class="brand-logo"
-              >Monkey <span style="color: #ebb42a"> Cat</span></span
-            >
+              >Monkey <span style="color: #ebb42a"> Cat</span>
+              </span>
             <h1
               style="font-family: 'Russo One', sans-serif; letter-spacing: 1px;color: #000; margin-top: 20px"
             >
@@ -91,10 +112,10 @@ Monkey has strong instincts - he never follows the rules.
 Cat has sharp intuition - she waits and appears at the perfect time.
 Half chaos - half genius.
             </h1>
-            <div class="gap-2 mt-6" style="margin-bottom: 30px">
+            <div class="gap-2 mt-6 flx" style="margin-bottom: 30px">
               <a
                 href="https://dexscreener.com/bsc/0xa42a0770f0a15aec179b050b4e850062be3a4444:4meme"
-                class="btn"
+                class="btn spacing"
                 style="
                   font-family: 'Russo One';
                   text-transform: uppercase;
@@ -102,7 +123,7 @@ Half chaos - half genius.
                   background-color: black;
                   color: #ebb42a;
                   border: 1px solid #ebb42a;
-                  margin-right: 16px;
+                 
                 "
                 >Dexscreener</a
               >
@@ -119,6 +140,7 @@ Half chaos - half genius.
                 >Dextools</a
               >
             </div>
+           </div>
             <!-- <div style="margin-top: 30px; display: flex; align-items: center">
               <a href="tglinkr" class="scroll-down">Telegram</a>
               <a href="ttlink" class="scroll-down-2">X</a>

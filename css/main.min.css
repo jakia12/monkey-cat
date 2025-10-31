@@ -1243,9 +1243,14 @@
 @media (max-width: 768px) {
   .flx {
     display: flex;
+    justify-content: center;
+  }
+  .social-icons {
+    justify-content: center;
   }
   section#stage {
     padding-top: 60px;
+    padding-bottom: 56px;
   }
   .container.container-md {
     width: 100%;
@@ -6683,6 +6688,11 @@ ul li {
 @media (max-width: 768px) {
   .vh100 {
     height: auto !important;
+  }
+  #stage .brand-logo {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 17px;
   }
 }
 .h-100 {

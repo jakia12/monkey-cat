@@ -6857,7 +6857,7 @@ ul li {
   z-index: 1;
 }
 #stage .brand-icon {
-  width: 350px;
+  width: 75%;
   height: auto;
   /* -webkit-filter: drop-shadow(0 4px 40px #20fb5f);
   filter: drop-shadow(0 4px 40px #20fb5f); */

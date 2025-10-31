@@ -21,23 +21,25 @@
       .spacing {
         margin-right: 15px;
       }
-      @media (max-width: 768px) {
-         .right_txt{
-        text-align: center;
+      .social-icons a img {
+        width: 70px;
+        height: 70px;
+        margin: 0 10px;
       }
+      @media (max-width: 768px) {
+        .right_txt {
+          text-align: center;
+        }
         #stage .brand-logo {
-    font-size: 46px;
-    display: block;
-    margin-bottom: 17px;
-}
+          font-size: 46px;
+          display: block;
+          margin-bottom: 17px;
+        }
         .spacing {
           margin-right: 0px;
           margin-bottom: 10px;
         }
-         }
-     
-       
-
+      }
     </style>
   </head>
   <body>
@@ -79,78 +81,94 @@
       id="stage"
       class="vh100 d-flex align-center"
       style="
-        background-image: linear-gradient(
-          #ffffff,#ffffff
-          ),
-          url(/images/bg.jpg);
+        background-image: linear-gradient(#ffffff, #ffffff), url(/images/bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
       "
     >
       <!-- <canvas id="hero-waves"></canvas> -->
       <div class="container">
-        <div class="row" style="display: flex;align-items: center;">
+        <div class="row" style="display: flex; align-items: center">
           <div class="col-md-6">
-            <img class="brand-icon mb-3" src="images/logo/logo.png" style="border-radius: 6px;" />
+            <img
+              class="brand-icon mb-3"
+              src="images/logo/logo.png"
+              style="border-radius: 6px"
+            />
           </div>
           <div class="col-md-6">
-           <div class="right_txt">
-             <span
-              style="
-                font-family: 'Russo One', sans-serif;
-                text-transform: uppercase;
-                color: #000
-              "
-              class="brand-logo"
-              >Monkey <span style="color: #ebb42a"> Cat</span>
+            <div class="right_txt">
+              <span
+                style="
+                  font-family: 'Russo One', sans-serif;
+                  text-transform: uppercase;
+                  color: #000;
+                "
+                class="brand-logo"
+                >Monkey <span style="color: #ebb42a"> Cat</span>
               </span>
-            <h1
-              style="font-family: 'Russo One', sans-serif; letter-spacing: 1px;color: #000; margin-top: 20px"
-            >
-             Monkey Cat is a “What the heck is going on?” meme.
-Monkey has strong instincts - he never follows the rules.
-Cat has sharp intuition - she waits and appears at the perfect time.
-Half chaos - half genius.
-            </h1>
-            <div class="gap-2 mt-6 flx" style="margin-bottom: 30px">
+              <h1
+                style="
+                  font-family: 'Russo One', sans-serif;
+                  letter-spacing: 1px;
+                  color: #000;
+                  margin-top: 20px;
+                "
+              >
+                Monkey Cat is a “What the heck is going on?” meme. Monkey has
+                strong instincts - he never follows the rules. Cat has sharp
+                intuition - she waits and appears at the perfect time. Half
+                chaos - half genius.
+              </h1>
+              <div class="gap-2 mt-6 flx" style="margin-bottom: 30px">
+                <a
+                  href="buylink"
+                  class="btn spacing"
+                  style="
+                    font-family: 'Russo One';
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    background-color: black;
+                    color: #ebb42a;
+                    border: 1px solid #ebb42a;
+                  "
+                  >Buy Now</a
+                >
+                <a
+                  href="https://four.meme/token/0xa42a0770f0a15aec179b050b4e850062be3a4444"
+                  style="
+                    background-color: #ebb42a;
+                    color: black;
+                    font-family: 'Russo One';
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                  "
+                  class="btn"
+                  >Fourmeme</a
+                >
+              </div>
+            </div>
+            <div class="social-icons d-flex align-center">
+              <a href="https://t.me/MonkeyCatBSC" target="_blank"
+                ><img src="images/logo/tg.png" alt="Telegram"
+              /></a>
+
+              <a
+                href="https://x.com/i/communities/1984064364220183036"
+                target="_blank"
+                ><img src="images/logo/tt.png" alt="Twitter"
+              /></a>
               <a
                 href="https://dexscreener.com/bsc/0xa42a0770f0a15aec179b050b4e850062be3a4444:4meme"
-                class="btn spacing"
-                style="
-                  font-family: 'Russo One';
-                  text-transform: uppercase;
-                  letter-spacing: 2px;
-                  background-color: black;
-                  color: #ebb42a;
-                  border: 1px solid #ebb42a;
-                 
-                "
-                >Dexscreener</a
-              >
+                target="_blank"
+                ><img src="images/logo/dxs.jpg" alt="Reddit"
+              /></a>
               <a
                 href="https://www.dextools.io/app/en/bnb/pair-explorer/0xa42a0770f0a15aec179b050b4e850062be3a4444?t=1761912853448"
-                style="
-                  background-color: #ebb42a;
-                  color: black;
-                  font-family: 'Russo One';
-                  text-transform: uppercase;
-                  letter-spacing: 2px;
-                "
-                class="btn"
-                >Dextools</a
-              >
+                target="_blank"
+                ><img src="images/logo/dxt.jpg" alt="Instagram"
+              /></a>
             </div>
-           </div>
-            <!-- <div style="margin-top: 30px; display: flex; align-items: center">
-              <a href="tglinkr" class="scroll-down">Telegram</a>
-              <a href="ttlink" class="scroll-down-2">X</a>
-              <a
-                href="https://four.meme/token/0xa42a0770f0a15aec179b050b4e850062be3a4444"
-                class="scroll-down-3"
-                >Fourmeme</a
-              >
-             <a href="dapplink" class="scroll-down-4">Dapp</a> -->
-            </div> 
           </div>
         </div>
       </div>

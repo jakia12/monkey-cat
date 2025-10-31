@@ -1241,6 +1241,9 @@
   width: 768px;
 }
 @media (max-width: 768px) {
+  section#stage {
+    padding-top: 60px;
+  }
   .container.container-md {
     width: 100%;
     padding: 0 16px;
@@ -6676,7 +6679,7 @@ ul li {
 
 @media (max-width: 768px) {
   .vh100 {
-    height: 90vh !important;
+    height: auto !important;
   }
 }
 .h-100 {
@@ -6864,7 +6867,7 @@ ul li {
 }
 @media (max-width: 576px) {
   #stage .brand-icon {
-    width: 160px;
+    width: 100%;
   }
   .brand-logo {
     font-size: 40px;

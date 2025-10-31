@@ -1889,6 +1889,7 @@ header {
   z-index: 400;
   overflow-x: hidden;
 }
+
 .btn,
 input[type="submit"] {
   display: inline-block;
@@ -1908,16 +1909,16 @@ input[type="submit"] {
   cursor: pointer;
   white-space: nowrap;
   position: relative;
-  -webkit-box-shadow: 0 0 24px rgba(32, 251, 95, 0.4);
-  box-shadow: 0 0 24px rgba(32, 251, 95, 0.4);
+  -webkit-box-shadow: 0 0 24px rgba(215, 227, 219, 0.4);
+  box-shadow: 0 0 24px rgba(215, 227, 219, 0.4);
   will-change: box-shadow;
 }
 .btn:hover,
 input:hover[type="submit"],
 .btn:focus,
 input:focus[type="submit"] {
-  -webkit-box-shadow: 0 0 40px rgba(32, 251, 95, 0.4);
-  box-shadow: 0 0 40px rgba(32, 251, 95, 0.4);
+  -webkit-box-shadow: 0 0 24px rgba(215, 227, 219, 0.4);
+  box-shadow: 0 0 24px rgba(215, 227, 219, 0.4);
 }
 .btn-small {
   height: 40px;

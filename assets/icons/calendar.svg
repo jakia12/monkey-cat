@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SIGNAI</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/" class="d-flex align-center ml-3"
+          ><span class="brand-logo"
+            >SIGN<span class="primary-color">AI</span></span
+          ></a
+        >
+
+        <button
+          type="button"
+          class="navbar-toggle ml-auto mr-2"
+          data-toggle="collapse"
+          data-target="#navbar-collapse"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <ul class="menu justify-center">
+          <li><a href="#features">features</a></li>
+          <li><a href="#token">token</a></li>
+          <li><a href="#partners">partners</a></li>
+          <li><a href="#roadmap">roadmap</a></li>
+          <li><a href="#team">team</a></li>
+          <div class="nav-cta d-flex align-center mr-3">
+            <a href="https://app.signai.tech/" class="btn btn-primary pl-2 pr-2"
+              >launch dapp</a
+            >
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="stage" class="vh100 d-flex align-center">
+      <canvas id="hero-waves"></canvas>
+      <div class="container container-md text-center">
+        <img class="brand-icon mb-3" src="images/logo/signai-robot.svg" />
+        <span class="brand-logo"
+          >SIGN<span class="primary-color">AI</span></span
+        >
+        <h1>the most advanced telegram bot for crypto signals</h1>
+        <div class="d-flex justify-center gap-2 mt-6">
+          <a href="https://app.signai.tech/" class="btn btn-primary"
+            >launch dapp</a
+          >
+          <a href="https://t.me/signAI_tgbot" class="btn btn-secondary"
+            >launch bot</a
+          >
+        </div>
+      </div>
+      <a href="#features" class="scroll-down"
+        ><img src="images/scroll-down.svg"
+      /></a>
+    </section>
+
+    <section id="features" class="py-10">
+      <div class="container">
+        <p class="h5 text-center">our usps</p>
+        <h2 class="text-center">features</h2>
+        <div class="filmstrip mt-6" data-filmstrip-start="">
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <div
+                    class="round-icon d-flex justify-center align-center mb-4"
+                  >
+                    <img src="assets/icons/signal.svg" />
+                  </div>
+                  <h3>Signal sources</h3>
+                  <p>
+                    SignAI utilizes three signal sources - CallAnalyzer,
+                    Etherscan Tracker, and ETH Trendings - to promptly generate
+                    informed calls, ensuring a comprehensive approach to
+                    decision-making.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <div
+                    class="round-icon d-flex justify-center align-center mb-4"
+                  >
+                    <img src="assets/icons/security.svg" />
+                  </div>
+                  <h3>Security</h3>
+                  <p>
+                    Upon detecting new tokens, a security scan is initiated by
+                    consolidating data from Otto simulator, SafeAnalyzer, TTF,
+                    Taxes Inspector, and Honeypot.is bots.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <div
+                    class="round-icon d-flex justify-center align-center mb-4"
+                  >
+                    <img src="assets/icons/dapp.svg" />
+                  </div>
+                  <h3>Dapp</h3>
+                  <p>
+                    Follow all data through our web decentralized application
+                    (dapp) and track calls initiated by the SignAI bot.
+                  </p>
+                  <a
+                    href="https://app.signai.tech/"
+                    class="btn btn-primary mt-4"
+                    >launch dapp</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filmstrip-position-wrapper">
+            <div class="scroll-position">
+              <div class="scroll-position-inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="token" class="py-10">
+      <div class="container">
+        <p class="h5 text-center">our token</p>
+        <h2 class="text-center">$SAI</h2>
+        <p class="text-center">
+          In the near future, we will introduce premium features exclusive to
+          <span class="primary-color">$SAI</span> holders.
+        </p>
+        <p class="text-center">
+          CA:
+          <a
+            href=""
+            class="ctc primary-color"
+            ctc="0xd2ca93093e05366dbc2bf88c3bb189a5141fb6f6"
+            >0xd2ca93093e05366dbc2bf88c3bb189a5141fb6f6</a
+          >
+        </p>
+        <div class="chart mt-5 round-3 overflow-hidden">
+          <iframe
+            id="dextools-widget"
+            title="DEXTools Trading Chart"
+            width="100%"
+            height="600"
+            style="border: none"
+            src="https://www.dextools.io/widget-chart/en/ether/pe-light/0x50c96120d5aebf89b931cc34f6c61a5aaa60870b?theme=dark&chartType=1&chartResolution=60&drawingToolbars=false"
+          ></iframe>
+        </div>
+        <div class="d-flex justify-center gap-2 mt-6">
+          <a
+            href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xd2ca93093e05366dbc2bf88c3bb189a5141fb6f6"
+            class="btn btn-primary"
+            target="_blank"
+            >buy $sai on uniswap</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="partners" class="py-10">
+      <div class="container">
+        <p class="h5 text-center">collab</p>
+        <h2 class="text-center">partners</h2>
+        <div class="row mt-6">
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/CallAnalyser" target="_blank"
+                ><img src="images/partners/callanalyzer.jpg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/etherscan_tracker" target="_blank"
+                ><img src="images/partners/etherscantracker.jpg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/ETHTRENDING" target="_blank"
+                ><img src="images/partners/ethtrending.jpg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/HoneypotIsBot" target="_blank"
+                ><img src="images/partners/honeypot.is.jpg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/OttoSimBot" target="_blank"
+                ><img src="images/partners/ottsimulator.jpg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/SafeAnalyzerbot" target="_blank"
+                ><img src="images/partners/safeanalyzer.jpg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/TaxInspector_Bot" target="_blank"
+                ><img src="images/partners/taxesinspector.jpg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="partner-logo">
+              <a href="https://t.me/ttfbotbot" target="_blank"
+                ><img src="images/partners/ttfbot.jpg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="py-10">
+      <div class="container">
+        <p class="h5 text-center">future</p>
+        <h2 class="text-center">roadmap</h2>
+        <div class="filmstrip mt-6" data-filmstrip-start="">
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <div
+                    class="round-icon d-flex justify-center align-center mb-4"
+                  >
+                    <span class="phase primary-color">1</span>
+                  </div>
+                  <h3>Phase 1</h3>
+                  <ul class="mt-5 check-list">
+                    <li class="done">Launch website</li>
+                    <li class="done">Release utility</li>
+                    <li class="done">Launch token</li>
+                    <li class="done">Locking LP</li>
+                    <li>Marketing Phase 1</li>
+                    <li>Trending &amp; Dextools</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <div
+                    class="round-icon d-flex justify-center align-center mb-4"
+                  >
+                    <span class="phase primary-color">2</span>
+                  </div>
+                  <h3>Phase 2</h3>
+                  <ul class="mt-5 check-list">
+                    <li>Marketing Phase 2</li>
+                    <li>Release more utilities</li>
+                    <li>Multi-Chain Support</li>
+                    <li>1.000 Holders</li>
+                    <li>CMC &amp; CG</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <div
+                    class="round-icon d-flex justify-center align-center mb-4"
+                  >
+                    <span class="phase primary-color">3</span>
+                  </div>
+                  <h3>Phase 3</h3>
+                  <ul class="mt-5 check-list">
+                    <li>Marketing Phase 3</li>
+                    <li>CEX Listing</li>
+                    <li>Roadmap V2</li>
+                    <li>5.000 Holders</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filmstrip-position-wrapper">
+            <div class="scroll-position">
+              <div class="scroll-position-inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="py-10">
+      <div class="container">
+        <h2 class="text-center">team</h2>
+        <div class="filmstrip mt-6" data-filmstrip-start="">
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <!-- <div class="round-icon d-flex justify-center align-center mb-4">
+                                        <img src="images/smo80.svg">
+                                    </div> -->
+                  <p class="h5 small">CEO</p>
+                  <h3>smo</h3>
+                  <p>Full stack developer and crypto enthusiast.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <!-- <div class="round-icon d-flex justify-center align-center mb-4">
+                                        <img src="assets/icons/signal.svg">
+                                    </div> -->
+                  <p class="h5 small">CTO</p>
+                  <h3>Sam</h3>
+                  <p>Solidity dev and liquidity provider.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div class="card-body p-5">
+                  <!-- <div class="round-icon d-flex justify-center align-center mb-4">
+                                        <img src="assets/icons/signal.svg">
+                                    </div> -->
+                  <p class="h5 small">CMO</p>
+                  <h3>Duke</h3>
+                  <p>Marketing manager and community leader</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filmstrip-position-wrapper">
+            <div class="scroll-position">
+              <div class="scroll-position-inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="d-flex justify-center gap-4 mb-4">
+        <li>
+          <a
+            href="https://etherscan.io/token/0xd2ca93093e05366dbc2bf88c3bb189a5141fb6f6"
+            target="_blank"
+            ><img src="assets/icons/etherscan.svg"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.dextools.io/app/en/ether/pair-explorer/0x50c96120d5aebf89b931cc34f6c61a5aaa60870b"
+            target="_blank"
+            ><img src="assets/icons/dextools.svg"
+          /></a>
+        </li>
+        <li>
+          <a href="https://t.me/SignAi_Eth" target="_blank"
+            ><img src="assets/icons/telegram.svg"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/SignAi_ETH" target="_blank"
+            ><img src="assets/icons/x.svg"
+          /></a>
+        </li>
+      </ul>
+      <p class="text-center">&copy; 2023 SIGNAI. All rights reserved.</p>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/sine-waves.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<svg id="phone-24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="frame" width="24" height="24" fill="none"/>
+  <g id="Iconly_Bold_Call" data-name="Iconly/Bold/Call" transform="translate(1.5 1.5)">
+    <g id="Call" transform="translate(2.5 2.5)">
+      <path id="Stroke-1" d="M7.606,8.4c3.359,3.358,4.121-.527,6.26,1.61,2.062,2.061,3.247,2.474.635,5.086-.327.263-2.406,3.427-9.713-3.878S.641,1.829.9,1.5C3.523-1.117,3.929.075,5.991,2.137,8.13,4.275,4.246,5.04,7.606,8.4Z" transform="translate(0 0)" fill="#121212" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

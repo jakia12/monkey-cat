@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Monkey Cat</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="shortcut icon"
-      href="/images/logo/logo.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="css/main.min.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-      body {
-        font-family: "Russo One", sans-serif;
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Non Player Judge</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="/images/logo/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+    body {
+      font-family: "Press Start 2P", system-ui;
+    }
+
+    .spacing {
+      margin-right: 15px;
+    }
+
+    .social-icons a img {
+      width: 70px;
+      height: 70px;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 768px) {
+      .right_txt {
+        text-align: center;
       }
+
+      #stage .brand-logo {
+        font-size: 46px;
+        display: block;
+        margin-bottom: 17px;
+      }
+
       .spacing {
-        margin-right: 15px;
+        margin-right: 0px;
+        margin-bottom: 10px;
       }
-      .social-icons a img {
-        width: 70px;
-        height: 70px;
-        margin: 0 10px;
+
+      #stage .brand-logo {
+        font-size: 48px;
+        display: block;
+        margin-bottom: 17px;
       }
-      @media (max-width: 768px) {
-        .right_txt {
-          text-align: center;
-        }
-        #stage .brand-logo {
-          font-size: 46px;
-          display: block;
-          margin-bottom: 17px;
-        }
-        .spacing {
-          margin-right: 0px;
-          margin-bottom: 10px;
-        }
-        #stage .brand-logo {
-          font-size: 48px;
-          display: block;
-          margin-bottom: 17px;
-        }
-        #stage .brand-icon {
-          width: 80%;
-          height: 530px;
-          /* -webkit-filter: drop-shadow(0 4px 40px #20fb5f); */
-          /* filter: drop-shadow(0 4px 40px #20fb5f); */
-          text-align: center;
-          margin: 0 auto;
-        }
+
+      #stage .brand-icon {
+        width: 80%;
+        height: 530px;
+        /* -webkit-filter: drop-shadow(0 4px 40px #20fb5f); */
+        /* filter: drop-shadow(0 4px 40px #20fb5f); */
+        text-align: center;
+        margin: 0 auto;
       }
-    </style>
-  </head>
-  <body>
-    <!-- <header>
+    }
+  </style>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- <header>
       <nav>
         <a href="/" class="d-flex align-center ml-3"
           ><span class="brand-logo"
@@ -90,105 +100,72 @@
       </nav>
     </header> -->
 
-    <section
-      id="stage"
-      class="vh100 d-flex align-center"
-      style="
+  <section id="stage" class="vh100 d-flex align-center" style="
         background-image: linear-gradient(#ffffff, #ffffff), url(/images/bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-      "
-    >
-      <!-- <canvas id="hero-waves"></canvas> -->
-      <div class="container">
-        <div class="row" style="display: flex; align-items: center">
-          <div class="col-md-6">
-            <img
-              class="brand-icon mb-3"
-              src="images/logo/logo.png"
-              style="border-radius: 6px"
-            />
-          </div>
-          <div class="col-md-6">
-            <div class="right_txt">
-              <span
-                style="
-                  font-family: 'Russo One', sans-serif;
+      ">
+    <!-- <canvas id="hero-waves"></canvas> -->
+    <div class="container">
+      <div class="row" style="display: flex; align-items: center">
+        <div class="col-md-6">
+          <img class="brand-icon mb-3" src="images/logo/logo.png" style="border-radius: 6px" />
+        </div>
+        <div class="col-md-6">
+          <div class="right_txt">
+            <span style="
+                    font-family: 'Press Start 2P', system-ui;
                   text-transform: uppercase;
                   color: #000;
-                "
-                class="brand-logo"
-                >Monkey <span style="color: #ebb42a"> Cat</span>
-              </span>
-              <h1
-                style="
-                  font-family: 'Russo One', sans-serif;
+                " class="brand-logo">Monkey <span style="color: #ebb42a"> Cat</span>
+            </span>
+            <h1 style="
+                    font-family: 'Press Start 2P', system-ui;
                   letter-spacing: 1px;
                   color: #000;
-                  margin-top: 20px;
-                "
-              >
-                Monkey Cat is a “What the heck is going on?” meme. Monkey has
-                strong instincts - he never follows the rules. Cat has sharp
-                intuition - she waits and appears at the perfect time. Half
-                chaos - half genius.
-              </h1>
-              <div class="gap-2 flx" style="margin-bottom: 23px">
-                <a
-                  href="https://www.dextools.io/app/en/bnb/pair-explorer/0xa42a0770f0a15aec179b050b4e850062be3a4444?t=1761912853448"
-                  class="btn spacing"
-                  style="
-                    font-family: 'Russo One';
+                  margin: 30px 0;
+                ">
+              Non-Player Judge $NPJ - the first AI companion that serves justice on-chain! <br>
+              It scans transactions, reads smart contracts, and delivers verdicts faster than humans can argue.
+              Data-driven judgment encoded in the blockchain.
+              NPJ: Because even the metaverse needs a judge.
+            </h1>
+            <div class="gap-2 flx" style="margin-bottom: 23px">
+              <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xa6a6105a93d6a1c6cd158520cd12d29f1757fdcd?t=1762088515313"
+                class="btn spacing" style="
+                    font-family: 'Press Start 2P', system-ui;
                     text-transform: uppercase;
                     letter-spacing: 2px;
                     background-color: black;
                     color: #ebb42a;
                     border: 1px solid #ebb42a;
-                  "
-                  >Dextools</a
-                >
-                <a
-                  href="https://four.meme/token/0xa42a0770f0a15aec179b050b4e850062be3a4444"
-                  style="
+                  ">Dextools</a>
+              <a href="#" style="
                     background-color: #ebb42a;
                     color: black;
-                    font-family: 'Russo One';
+                    font-family: 'Press Start 2P', system-ui;
                     text-transform: uppercase;
                     letter-spacing: 2px;
-                  "
-                  class="btn"
-                  >Fourmeme</a
-                >
-              </div>
+                  " class="btn">coming soon</a>
             </div>
-            <div class="social-icons d-flex align-center">
-              <a href="https://t.me/MonkeyCatBSC" target="_blank"
-                ><img src="images/logo/tg.png" alt="Telegram"
-              /></a>
+          </div>
+          <div class="social-icons d-flex align-center">
+            <a href="tglink" target="_blank"><img src="images/logo/tg.png" alt="Telegram" /></a>
 
-              <a
-                href="https://x.com/i/communities/1984064364220183036"
-                target="_blank"
-                ><img src="images/logo/tt.png" alt="Twitter"
-              /></a>
-              <a
-                href="https://dexscreener.com/bsc/0xa42a0770f0a15aec179b050b4e850062be3a4444:4meme"
-                target="_blank"
-                ><img src="images/logo/dxs.jpg" alt="Reddit"
-              /></a>
-              <!-- <a
-                href=""
-                target="_blank"
-                ><img src="images/logo/dxt.jpg" alt="Instagram"
-              /></a> -->
-            </div>
+            <a href="https://x.com/AI_Judge_NPJ" target="_blank"><img src="images/logo/tt.png" alt="Twitter" /></a>
+            <!-- <a href="dexslink" target="_blank"><img
+                src="images/logo/dxs.jpg" alt="Reddit" /></a> -->
+            <a href="https://dexscreener.com/bsc/0xa6a6105a93d6a1c6cd158520cd12d29f1757fdcd" target="_blank"><img
+                src="images/logo/dxt.jpg" alt="Instagram" /></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/sine-waves.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/sine-waves.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

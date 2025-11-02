@@ -1469,7 +1469,7 @@ nav .brand-logo {
 }
 
 #stage .brand-logo {
-  font-size: 88px;
+  font-size: 50px;
   display: block;
   margin-bottom: 17px;
 }
@@ -3761,9 +3761,9 @@ footer {
 }
 h1,
 .h1 {
-  font-size: 20px;
+  font-size: 13px;
   font-weight: 300;
-  line-height: 36px;
+  line-height: 28px;
   margin: 0 0 1rem;
   padding: 0;
   color: #f5f5f5;
